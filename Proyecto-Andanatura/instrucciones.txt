@@ -1,0 +1,19 @@
+INSTRUCCIONES PARA DESPLEGAR EN RENDER
+
+1. Colocar los siguientes archivos en la raíz de tu proyecto PHP:
+   - Dockerfile
+   - render.yaml
+
+2. Verificá que tu proyecto contenga:
+   - composer.json y composer.lock
+   - package.json con el script "build": "gulp build"
+
+3. Subí tu proyecto a un repositorio en GitHub.
+
+4. En Render.com:
+   - Seleccioná "New" > "Web Service"
+   - Elegí tu repositorio
+   - En "Environment" seleccioná Docker
+   - Render detectará automáticamente el Dockerfile y realizará el deploy
+
+Listo, tu app quedará disponible públicamente y podrás enlazarla desde tu perfil de LinkedIn.

@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: proyecto-andanatura
+    env: docker
+    plan: free
+    autoDeploy: true

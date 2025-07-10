@@ -16,7 +16,7 @@
     } elseif (strpos($currentPath, '/ruralpyme/test') !== false) {
         $logoPath = '../public/build/img/ruralpyme_logo.jpg'; // Imagen para ruralpyme
     } else {
-        $logoPath = '../public/build/img/ruralpyme_logo.jpg'; // Imagen por defecto
+        $logoPath = '/build/img/ruralpyme_logo.jpg'; // Imagen por defecto
     }
     ?>
 
@@ -34,7 +34,7 @@
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="../public/build/js/bundle.min.js"></script>
+    <script src="/build/js/bundle.min.js"></script>
         
 </body>
 </html>

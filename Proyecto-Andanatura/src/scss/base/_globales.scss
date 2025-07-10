@@ -1,0 +1,64 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    background-color: #EAEAEA;
+}
+p {
+    color: #000; /* Asegúrate de definir $negro correctamente si es una variable */
+    font-size: 2rem;
+}
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+
+.ocultar {
+    display: none;
+}
+
+img,
+picture {
+    width: 100%;
+    display: block;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif; /* Cambia a la fuente deseada */
+    margin: 0.5rem 0;
+    font-weight: bold;
+    text-align: center;
+}
+h1 {
+    font-size: 3.8rem;
+}
+h2 {
+    font-size: 3.5rem;
+    margin-top: 10px;
+}
+h3 {
+    font-size: 3rem;
+}
+h4 {
+    font-size: 2.3rem;
+    margin-top: 3.8rem;
+}
+/* Asegura que el contenido se vea bien en pantallas más pequeñas */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2.7rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+}

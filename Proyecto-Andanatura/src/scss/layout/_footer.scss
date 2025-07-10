@@ -1,0 +1,22 @@
+.footer {
+    display: block;
+    padding: 3rem;
+    background-color: $grisOscuro;
+    margin-bottom: 0; /* Asegúrate de que el margen sea cero */
+    text-align: center; /* Centra el texto horizontalmente */
+    
+    .contenedor-footer {
+        padding-top: calc($separacion / 2);
+    }
+
+    .navegacion {
+        visibility: visible;
+        opacity: 1;
+        height: auto;
+    }
+
+    p {
+        color: white; /* Asegura que el texto sea blanco */
+        margin: 0; /* Elimina márgenes que podrían afectar el centrado */
+    }
+}

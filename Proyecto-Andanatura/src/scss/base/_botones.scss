@@ -1,0 +1,28 @@
+.boton-amarillo {
+    @include boton($amarillo, inline-block);
+    
+}
+
+.boton-amarillo-block {
+    @include boton($amarillo, flex);
+    
+    
+}
+
+.boton-verde {
+    @include boton($verde, inline-block);
+
+}
+
+.boton-rojo-block {
+    @include boton($rojo, flex);
+    width: 100%
+}
+
+.boton-verde-block {
+    @include boton($verde, block)
+}
+
+.boton-submit{
+    display: none;
+}
